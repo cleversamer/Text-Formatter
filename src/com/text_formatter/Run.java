@@ -28,7 +28,6 @@ public class Run extends Application {
         primaryStage.setResizable(false);
         primaryStage.setTitle("Text Formatter");
         primaryStage.show();
-
         stage = primaryStage;
     }
 }

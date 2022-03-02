@@ -6,14 +6,16 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="325.0" maxWidth="600.0" minHeight="325.0" minWidth="600.0" prefHeight="325.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.text_formatter.controllers.MainWindowController">
-    <Label layoutX="168.0" layoutY="14.0" text="Text Formatter">
+<Pane maxHeight="325.0" maxWidth="644.0" minHeight="325.0" minWidth="600.0" prefHeight="325.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.text_formatter.controllers.MainWindowController">
+    <Label layoutX="198.0" layoutY="10.0" text="Text Formatter">
         <font>
             <Font name="Roboto Slab Black" size="36.0" />
         </font>
     </Label>
-    <TextArea fx:id="textArea" layoutX="10.0" layoutY="64.0" prefHeight="200.0" prefWidth="580.0" promptText="Enter text here..." wrapText="true" />
-    <Label layoutX="14.0" layoutY="290.0" opacity="0.8" text="© 2022 Samer Al-Sa'dawi. All rights reserved." textFill="#333333" />
-    <Button fx:id="btnFormat" layoutX="420.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleBtnFormat" prefWidth="80.0" text="Format" />
-    <Button fx:id="btnCancel" layoutX="510.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleBtnCancel" prefWidth="80.0" text="Cancel" />
+    <TextArea fx:id="textArea" layoutX="10.0" layoutY="70.0" prefHeight="200.0" prefWidth="626.0" promptText="Enter text here..." wrapText="true" />
+    <Label layoutX="10.0" layoutY="290.0" opacity="0.8" text="© 2022 Samer Al-Sa'dawi. All rights reserved." textFill="#333333" />
+   <Button layoutX="286.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleBtnContact" prefWidth="80.0" text="Contact Us" />
+    <Button fx:id="btnCopy" disable="true" layoutX="376.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleBtnCopy" prefWidth="80.0" text="Copy" />
+    <Button layoutX="466.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleBtnFormat" prefWidth="80.0" text="Format" />
+    <Button layoutX="556.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleBtnCancel" prefWidth="80.0" text="Cancel" />
 </Pane>
