@@ -67,12 +67,12 @@ public class MainWindowController implements Initializable {
 
     @FXML
     public void handleLinkTwitter() {
-        browse("https://www.twitter.com/ssadawi__");
+        browse("https://www.twitter.com/cleversamerr");
     }
 
     @FXML
     public void handleLinkGitHub() {
-        browse("https://www.github.com/ssadawi");
+        browse("https://www.github.com/cleversamerr");
     }
 
     @FXML
