@@ -2,7 +2,7 @@ repo_name: cleversamerr/Text-Formatter
 report_id: 06f495a1b07c91fc2c665bbe17e6c9ac
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-24T12:43:57+00:00'
+timestamp: '2024-01-05T08:16:16+00:00'
 requested_by: cleversamerr
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/cleversamerr/Text-Formatter
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,4 +27,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cleversamerr/Text-Formatter
   detection_source: Repo Metadata
